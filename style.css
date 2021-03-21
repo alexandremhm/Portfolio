@@ -25,17 +25,42 @@ body {
 }
 .profile-pic{
     display: inline-block;
-    background-color: #C0C5C1;
     padding: 20px;
-    margin-right: 50px;
+    margin-right: 150px;
+    
 }
 .indice{
     text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 .title-name, .sub-title{
     text-align: center;
+    }
+.about-me{
+    color: #C0C5C1;
+    font-family:'Dosis', sans-serif;
 }
-
-div{
-    margin-left: 35px;
+.blog-container{
+    color: #C0C5C1;
+    font-family:'Dosis', sans-serif;
+    font-size: 25px;
+}
+a:hover[href*="bcdb"]{
+    color: #C0C5C1;
+}
+a:hover[href*="hysteria"]{
+    color: #C0C5C1;
+}
+a:hover[href*="oulipo"]{
+    color: #C0C5C1;
+}
+#blog{
+    line-height: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: #C0C5C1;
+   
+}
+.margin-left-all{
+    margin-left: 50px;
 }
