@@ -6,7 +6,9 @@ body {
     color: #EAF0CE;
     font-family:'Dosis', sans-serif;
 }
-
+#sobre{
+    padding-top: 30px;
+}
 .title-color{
     color: #C0C5C1;
 }
@@ -33,6 +35,10 @@ body {
     text-align: center;
     font-size: 20px;
     padding-bottom: 20px;
+    min-width: 100%;
+    background-color: #C0C5C1;
+    padding: 15px;
+    margin: -10px;
 }
 .title-name, .sub-title{
     text-align: center;
