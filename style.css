@@ -5,7 +5,6 @@ body {
 .text-color {
     color: #EAF0CE;
     font-family:'Dosis', sans-serif;
-
 }
 
 .title-color{
@@ -18,4 +17,25 @@ body {
 .line-heigh-title{
     line-height: 15px;
     font-family: 'Nunito', sans-serif;
+}
+.about-matheus{
+    display: inline-block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.profile-pic{
+    display: inline-block;
+    background-color: #C0C5C1;
+    padding: 20px;
+    margin-right: 50px;
+}
+.indice{
+    text-align: center;
+}
+.title-name, .sub-title{
+    text-align: center;
+}
+
+div{
+    margin-left: 35px;
 }
