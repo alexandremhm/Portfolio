@@ -6,9 +6,10 @@
 }
 
 #color-palette {
-  width: 240px;
+  width: fit-content;
   margin: auto;
-  padding-top: 30px;
+  border: dashed white 1px;
+  height: fit-content;
 }
 
 .colorBoxDimensions {
