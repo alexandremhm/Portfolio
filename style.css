@@ -37,6 +37,11 @@ div.indice ul li{
     color: #443850; 
      
 }
+div.indice ul li a{
+    text-decoration: none;
+
+}
+
 .indice{
     text-align: center;
     font-size: 20px;
