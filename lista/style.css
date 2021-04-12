@@ -1,0 +1,73 @@
+body {
+  font-family: Poppins, sans-serif;
+  color: #4A148C;
+  background-color: #FFEB3B;
+}
+
+#section-father {
+  width: fit-content;
+  background-color: #CE93D8;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;  
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 60px;
+}
+
+#product-input {
+  width: fit-content;
+  margin: auto;
+}
+
+#products-container {
+  width: fit-content;
+  margin: auto;
+}
+
+.iten-li {
+  font-size: 60px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#btn-section {
+  width: fit-content;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.input-button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 10px;
+  text-decoration: none;
+  border-color: #861258;
+  background: linear-gradient(to bottom, #f190ba 5%, #861258 100%);
+  box-shadow: inset 1px #fff4f3;
+  color: white;
+  text-shadow: 1px #528009;
+  border-radius: 15px;
+}
+
+#text-input {
+  min-width:700px;
+  max-width: fit-content;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,1.061);
+}
+
