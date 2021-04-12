@@ -9,17 +9,16 @@ body {
   background-color: #CE93D8;
   margin: auto;
   border-radius: 15px;
-  padding: 10px 10px 10px 10px;  
 }
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 #subtitle {
   text-align: center;
-  font-size: 60px;
+  font-size: 35px;
 }
 
 #product-input {
@@ -33,7 +32,7 @@ h1 {
 }
 
 .iten-li {
-  font-size: 60px;
+  font-size: 35px;
   list-style-type: none;
   text-align: center;
 }
@@ -63,9 +62,9 @@ h1 {
 }
 
 #text-input {
-  min-width:700px;
+  min-width:500px;
   max-width: fit-content;
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 15px 4px rgba(0,0,0,1.061);
