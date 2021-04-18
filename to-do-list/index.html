@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section">
+      <header class="has-text-centered">
+        <h1 class="title is-3">Minha Lista de Tarefas</h1>
+      </header>
+      <p class="subtitle has-text-centered" id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </p>
+    </section>
+    <section class="container main-content">
+      <div class="field">
+        <label class="label">Insira sua tarefa</label>
+        <div class="control">
+          <input
+            class="input is-success"
+            id="texto-tarefa"
+            type="text"
+            placeholder="Text input"
+          />
+        </div>
+      </div>
+      <button class="button is-dark is-fucused" id="mover-cima">/\</button>
+      <button class="button is-dark is-fucused" id="mover-baixo">\/</button>
+      <button class="button is-success is-fucused" id="criar-tarefa">
+        Inserir
+      </button>
+      <button class="button is-link is-fucused" id="salvar-tarefas">
+        Salvar
+      </button>
+      <button class="button is-danger is-fucused" id="apaga-tudo">
+        Apagar tarefas
+      </button>
+      <button class="button is-success is-warning" id="remover-finalizados">
+        Remover Finalizados
+      </button>
+      <button class="button is-success is-warning" id="remover-selecionado">
+        Remover selecionado
+      </button>
+      <div class="section">
+      <div class="content box has-background-primary-light">
+        <ol class="is-lower-alpha" type="1" id="lista-tarefas"></ol>
+      </div>
+    </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
