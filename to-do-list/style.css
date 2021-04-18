@@ -1,0 +1,12 @@
+.task-selected {
+  background-color: hsl(171, 100%, 29%);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+}
