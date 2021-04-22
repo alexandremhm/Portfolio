@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace, sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2px solid #a9b1a1;
+  border-bottom: 1px solid #a9b1a1;
+  box-shadow: 0 4px 3px -3px rgb(0 0 0 / 20%);
+}
+
+.nav-links a {
+  padding: 0 15px;
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.nav-img img {
+  width: 60px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #0e1730;
+  /* #325D7F */
+}
+
+.hero h1 {
+  font-size: 2.9em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.hero-titles {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 3px -3px rgb(0 0 0 / 20%);
+  background-color: #fafafa;
+  padding: 40px 40px;
+  border-radius: 10px;
+  color: #010712;
+}
+
+.hero h1 {
+  align-self: center;
+}
+
+.hero h3 {
+  align-self: center;
+}
+
+.about-me {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.9em;
+  margin-bottom: 15px;
+}
+
+span {
+  text-decoration: underline 5px #23e1c7;
+}
+
+.about-me p {
+  font-size: 1.5em;
+}
+
+.img-text {
+  width: 30px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.profile-pic img {
+  opacity: 0.7;
+  width: 200px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.profile-pic img:hover {
+  opacity: 1;
+}
+
+.education {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+}
+
+.education-big {
+  display: flex;
+}
+
+.education-img {
+  width: 500px;
+  padding-left: 50px;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.my-goals {
+  padding: 100px 50px;
+  width: 70%;
+}
+
+ul li span {
+  font-size: 50px;
+}
+
+.my-goals img {
+  width: 500px;
+}
+
+.my-goals {
+  display: flex;
+  padding: 100px 50px;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+}
+
+.road-img {
+  padding: 20px 20px;
+}
+
+.road-img img {
+  width: 100px;
+}
+.road h3 {
+  margin-bottom: 20px;
+}
+
+.road {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projects-h1 {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.pixel-art img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.to-do img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.projects a {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.projects a:hover {
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1730;
+  height: 50px;
+  text-align: end;
+  color: #fafafa;
+}
