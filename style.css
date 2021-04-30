@@ -177,6 +177,11 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .projects h3 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
   
   .projects {
     padding: 100px 50px;
@@ -186,7 +191,6 @@
   }
   
   .projects-h1 {
-    padding-left: 50px;
     text-align: center;
   }
   
@@ -196,8 +200,9 @@
   }
   
   .to-do img {
-    width: 500px;
+    width: 250px;
     border-radius: 10px;
+    border: #a9b1a1 solid 2px;
   }
   
   .projects a {
@@ -233,50 +238,12 @@
       overflow: hidden;
       position: relative;
       border-top: none;
-    }
+    }   
 
-    
-    .nav-links{
+    .link {
       display: none;
     }
-
-    nav a {
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-
-    nav a.icon {
-      background: black;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    
-    .nav-links a {
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    }
-
-    .nav-links #goals {
-      display: none;      
-    }
-    .nav-links #projects {
-      display: none;      
-    }
-    .nav-links #road {
-      display: none;      
-    }
-
+   
     .hero-titles {      
       width: 90%;
       padding: 10px;
