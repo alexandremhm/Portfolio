@@ -196,13 +196,19 @@
   
   .pixel-art img {
     width: 250px;
-    border-radius: 10px;
+    border-radius: 10px;    
   }
   
+  .projects-img:hover {
+    box-shadow: 8px 8px 8px #23e1c7;
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+
   .to-do img {
     width: 250px;
     border-radius: 10px;
-    border: #a9b1a1 solid 2px;
+    border: #23e1c7 solid 1px;
   }
   
   .projects a {
