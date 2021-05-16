@@ -215,6 +215,11 @@
     text-decoration: none;
     opacity: 0.6;
   }
+
+  .pixel-art a {
+    text-decoration: none;
+    color: #010712;
+  }
   
   .projects a:hover {
     opacity: 1;
